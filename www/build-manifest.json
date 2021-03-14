@@ -1,19 +1,19 @@
 {
   "inputs": {
     "css/styles.css": {
-      "bytes": 8604,
+      "bytes": 9080,
       "imports": []
     },
     "js/dashboard/api/index.js": {
-      "bytes": 594,
+      "bytes": 609,
       "imports": []
     },
     "js/utils/dataFetcher.js": {
-      "bytes": 887,
+      "bytes": 928,
       "imports": []
     },
     "js/dashboard/events/EventManager.js": {
-      "bytes": 1512,
+      "bytes": 1560,
       "imports": [
         {
           "path": "js/dashboard/api/index.js",
@@ -26,15 +26,15 @@
       ]
     },
     "js/dashboard/sidebar/sideBarTemplates.js": {
-      "bytes": 212,
+      "bytes": 224,
       "imports": []
     },
     "js/utils/renderToElement.js": {
-      "bytes": 157,
+      "bytes": 162,
       "imports": []
     },
     "js/dashboard/sidebar/sideBarOptions.js": {
-      "bytes": 238,
+      "bytes": 246,
       "imports": [
         {
           "path": "js/dashboard/sidebar/sideBarTemplates.js",
@@ -47,11 +47,11 @@
       ]
     },
     "_snowpack/pkg/ejs.js": {
-      "bytes": 37787,
+      "bytes": 38888,
       "imports": []
     },
     "js/utils/renderTemplate.js": {
-      "bytes": 163,
+      "bytes": 172,
       "imports": [
         {
           "path": "_snowpack/pkg/ejs.js",
@@ -60,7 +60,7 @@
       ]
     },
     "js/dashboard/sidebar/sideBarOption.js": {
-      "bytes": 750,
+      "bytes": 771,
       "imports": [
         {
           "path": "js/dashboard/sidebar/sideBarTemplates.js",
@@ -81,7 +81,7 @@
       ]
     },
     "js/dashboard/sidebar/index.js": {
-      "bytes": 512,
+      "bytes": 537,
       "imports": [
         {
           "path": "js/dashboard/sidebar/sideBarOptions.js",
@@ -98,11 +98,11 @@
       ]
     },
     "js/dashboard/widgets/manager/managerTemplates.js": {
-      "bytes": 494,
+      "bytes": 513,
       "imports": []
     },
     "js/dashboard/widgets/manager/index.js": {
-      "bytes": 657,
+      "bytes": 676,
       "imports": [
         {
           "path": "js/dashboard/widgets/manager/managerTemplates.js",
@@ -119,11 +119,11 @@
       ]
     },
     "js/dashboard/widgets/employee/employeeTemplates.js": {
-      "bytes": 958,
+      "bytes": 1006,
       "imports": []
     },
     "js/dashboard/widgets/employee/index.js": {
-      "bytes": 1786,
+      "bytes": 1841,
       "imports": [
         {
           "path": "js/utils/renderTemplate.js",
@@ -144,7 +144,7 @@
       ]
     },
     "js/dashboard/display-panel/index.js": {
-      "bytes": 968,
+      "bytes": 1003,
       "imports": [
         {
           "path": "js/dashboard/widgets/manager/index.js",
@@ -157,7 +157,7 @@
       ]
     },
     "js/dashboard/index.js": {
-      "bytes": 806,
+      "bytes": 841,
       "imports": [
         {
           "path": "js/dashboard/api/index.js",
@@ -217,7 +217,7 @@
           "bytesInOutput": 36
         },
         "_snowpack/pkg/ejs.js": {
-          "bytesInOutput": 12949
+          "bytesInOutput": 13668
         },
         "js/utils/renderTemplate.js": {
           "bytesInOutput": 55
@@ -247,7 +247,7 @@
           "bytesInOutput": 278
         }
       },
-      "bytes": 18234
+      "bytes": 18953
     }
   }
 }
